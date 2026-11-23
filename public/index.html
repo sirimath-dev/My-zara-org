@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090b18"><title>QUEEN ZARA MD — Pairing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="orb orb-a"></div><div class="orb orb-b"></div>
+  <main class="shell">
+    <header><div class="crown">♛</div><span>QUEEN ZARA <b>MD</b></span><small>MULTI-DEVICE CONNECT</small></header>
+    <section class="card">
+      <div class="eyebrow"><i></i> SECURE WHATSAPP PAIRING</div>
+      <h1>Connect your<br><span>WhatsApp account.</span></h1>
+      <p class="sub">Enter your number with country code to receive your official WhatsApp pairing code.</p>
+      <label for="phone">PHONE NUMBER</label>
+      <div class="input-wrap"><span>＋</span><input id="phone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="947XXXXXXXX" maxlength="15"></div>
+      <button id="generate"><span class="btn-label">Generate Pairing Code</span><span class="spinner"></span></button>
+      <div id="result" class="result hidden" aria-live="polite">
+        <small>YOUR PAIRING CODE</small><strong id="code">--------</strong>
+        <button id="copy" class="copy">Copy Code</button>
+      </div>
+      <div id="notice" class="notice" role="status"></div>
+      <div class="status"><span class="pulse"></span><span id="statusText">Checking server status…</span></div>
+    </section>
+    <footer><span>Designed for <b>QUEEN ZARA MD</b></span><span>Developer · SIRIMATH DEV</span></footer>
+  </main>
+  <script src="/script.js"></script>
+</body></html>
