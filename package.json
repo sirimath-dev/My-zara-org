@@ -1,19 +1,24 @@
 {
-  "name": "queen-zara-md",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "engines": { "node": ">=20" },
-  "scripts": { "start": "node index.js", "check": "node --check index.js && node --check config.js && node --check lib/connection.js && node --check lib/session.js && node --check lib/pairing.js" },
-  "dependencies": {
-    "@whiskeysockets/baileys": "6.7.18",
-    "axios": "^1.7.9",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "express-rate-limit": "^7.5.0",
-    "helmet": "^8.0.0",
-    "mongoose": "^8.9.5",
-    "pino": "^9.6.0"
-  }
+"name": "queen-zara-bot",
+"version": "1.0.0",
+"description": "QUEEN ZARA MD WhatsApp Multi-Device Bot",
+"type": "module",
+"main": "index.js",
+"scripts": {
+"start": "node index.js"
+},
+"engines": {
+"node": ">=20.0.0"
+},
+"dependencies": {
+"@whiskeysockets/baileys": "6.7.18",
+"axios": "^1.7.9",
+"cors": "^2.8.5",
+"dotenv": "^16.4.7",
+"express": "^4.21.2",
+"express-rate-limit": "^7.5.0",
+"helmet": "^8.0.0",
+"mongoose": "^8.9.5",
+"pino": "^9.6.0"
+}
 }
